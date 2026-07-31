@@ -15,3 +15,12 @@ cities.remove("Ahmedabad")
 print(cities)
 cities.pop()
 print(cities)
+
+# List Comprehension
+numbers = [10, 20, 30, 40, 50]
+
+double = [num * 2 for num in numbers]
+print(double)
+
+odd = [num for num in numbers if num % 20 != 0]
+print(odd)
