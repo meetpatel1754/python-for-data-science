@@ -1,0 +1,25 @@
+class Car:
+    pass
+
+car1 = Car()
+
+car1.brand = "Honda"
+car1.model = "City"
+car1.year = 2024
+
+print(car1.brand)
+print(car1.model)
+print(car1.year)
+
+
+class Car:
+
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+car1 = Car("Honda", "City")
+car2 = Car("Toyota", "Fortuner")
+
+print(car1.brand)
+print(car2.model)
